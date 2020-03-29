@@ -12,3 +12,5 @@ function readJson(callback){
         }
     });  
 }
+
+function writeJson(){}
