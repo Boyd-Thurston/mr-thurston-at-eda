@@ -1,0 +1,45 @@
+    <nav class="navbar">
+      <div class="logo">Mr Thurston @ EDA</div>
+      <a href="/">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            {{#each navTechBlog}}
+                <a href="/article/{{type}}/{{title}}/{{id}}">{{subtitle}} - {{title}}</a>
+            {{/each}}
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Cultural Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            {{#each navCulturalBlog}}
+                <a href="/article/{{type}}/{{title}}/{{id}}">{{subtitle}} - {{title}}</a>
+            {{/each}}
+        </div>
+      </div>
+      {{!-- <div class="dropdown">
+        <button class="dropbtn">JavaScript Play
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            {{#each javaScriptPlay}}
+                <a href="/java-script-play/{{id}}">{{title}}</a>
+            {{/each}}
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">In page navigation
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            {{#each content}}
+                <a href="#section{{section}}">{{subheading}}</a>
+            {{/each}}
+        </div>
+      </div> --}}
+      <a href="/contact">Contact</a>
+    </nav>

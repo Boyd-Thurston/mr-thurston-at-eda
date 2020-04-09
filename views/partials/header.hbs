@@ -1,0 +1,15 @@
+<header>
+  <div class="container">
+    {{#if type}}
+      <img class="banner-img" src="/{{banner_url}}" alt="{{type}} banner">
+    {{/if}}
+
+    {{#unless type}}
+      <img class="banner-img" src="images/home-banner.PNG" alt="busy we developers desk">
+    {{/unless}}
+
+    <div class="centered-text-over-img">
+      <h1>{{title}}</h1>
+    </div>
+  </div>
+</header>

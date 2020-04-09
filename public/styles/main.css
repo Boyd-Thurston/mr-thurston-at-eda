@@ -1,0 +1,172 @@
+
+body{
+    margin: 0;
+    font-size: 1em;
+}
+
+h1{
+    font-family: 'Coda Caption', sans-serif;
+    color: #fff;
+}
+
+/* h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -50px; 
+    height: 50px; 
+    visibility: hidden; 
+    pointer-events: none;
+  } */
+
+article{
+    width: 45%;
+    float: left;
+    border: #222 solid 2px;
+    border-radius: 4px;
+    margin: 0px 5px 7px 0px;
+    padding: 0px 5px;
+}
+
+article h2{
+    text-align: center;
+}
+
+footer{
+    border-top: 2px black solid;
+    clear: both;
+    padding-left: 30px;
+}
+
+.content{
+    padding-left: 30px;
+}
+
+.linked-article{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*navigation styels*/
+
+.navbar {
+    background-color: #222;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.dropdown {
+    float: left;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #444;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+/*image styles*/
+
+.container{
+    position: relative;
+    padding-top: 50px;
+}
+
+.over-img-text-top-left{
+    position: absolute;
+    top: 74px;
+    left: 20px;
+    font-size: 1.4em;
+    color: snow;
+}
+
+.centered-text-over-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    text-align: center;
+    color: orangered;
+  }
+
+.banner-img{
+    width: 100%;
+    height: auto;
+    max-height: 210px;  
+}
+
+.img-cr{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+
+.centered-iframe{
+    margin:auto; 
+    display: block;
+}

@@ -13,3 +13,15 @@ this is a website dedicated to my journey through my eduaction at Enspiral Dev A
 Current version - 2.0 refactored into using handlebars templating langue and express server, hosted on heroku
 
 version 1.0 - 1.10 static websights hosted on github pages https://boyd-thurston.github.io/ see repo https://github.com/Boyd-Thurston/Boyd-Thurston.github.io for more details.
+
+----------------------------------------------------------------------------
+
+## Todo list
+[x] set up express server
+[] create basic handlebars views
+[x] create database
+[] add test article to database
+[] build rout to display test article
+[] add addtional articles to database
+[] build functionality to understand most recent articles
+[] build functionality to dynamicly render links

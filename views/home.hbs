@@ -1,0 +1,32 @@
+<main>
+    <div>
+      <p>
+        This website is both a record of my journey through the <a href="https://devacademy.co.nz/">Enspiral Dev Academy's</a> (EDA) 
+        foundations curriculum and a live test of my skills as a fledgling web developer. 
+      </p>
+      <p>
+        As I progress through this course it will grow with new articles for both the 
+        technical and cultural blogs. The technical blog will showcase new aspects and 
+        understandings on my learnings as I progress through the foundation sprints. Whereas 
+        the cultural blog will capture my views and reflections as a student and person 
+        kicking off with Identity and values as these things normally do. 
+      </p>
+      <p>
+        As always I am one who welcomes constructive criticism and feedback, so don't be afraid 
+        to make <a href="contact.html">contact</a>.
+      </p>    
+    </div>
+    <div>
+      <h2>Featured Articles</h2>
+    </div>
+
+    {{#each featuredArticle}}
+        <article>
+          <a class="linked-article" href="/article/{{type}}/{{title}}/{{id}}">
+            <h2>{{subtitle}} {{title}}</h2>
+          </a>
+          {{{content}}} 
+          <a class="linked-article" href="/article/{{type}}/{{title}}/{{id}}">Read More</a>
+        </article>
+    {{/each}}
+</main>
