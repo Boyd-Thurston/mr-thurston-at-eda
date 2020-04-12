@@ -2,7 +2,7 @@
 exports.seed = knex => {
       return knex('articles').insert([
         { 
-          banner_url: "images/cultural-blog-banner.JPG", 
+          banner_url: "images/cultural-blog-banner.jpg", 
           title: "Identity and Values", 
           subtitle: "Sprint 1 Cultural blog", 
           type: "CulturalBlog", 
@@ -238,7 +238,7 @@ exports.seed = knex => {
         "</p>" 
         },
         {
-          banner_url: "images/tech-blog-banner.JPG", 
+          banner_url: "images/tech-blog-banner.jpg", 
           title: "The Story of Te Houtaewa", 
           subtitle: "Sprint 1 Technical blog", 
           type: "TechBlog", 
@@ -255,7 +255,7 @@ exports.seed = knex => {
           "</p>"
         },
         {
-          banner_url: "images/cultural-blog-banner.JPG",
+          banner_url: "images/cultural-blog-banner.jpg",
           title: "Q&A With EDA",
           subtitle: "Sprint 2 Cultural blog",
           type: "CulturalBlog",
@@ -359,7 +359,7 @@ exports.seed = knex => {
             "etc.</p>"
         },
         {
-          banner_url: "images/tech-blog-banner.JPG",
+          banner_url: "images/tech-blog-banner.jpg",
           title: "CSS Positioning",
           subtitle: "Sprint 2 Technical blog",
           type: "TechBlog",
@@ -453,7 +453,7 @@ exports.seed = knex => {
           "</p>"
         },
         {
-          banner_url: "images/cultural-blog-banner.JPG",
+          banner_url: "images/cultural-blog-banner.jpg",
           title: "Emotional Intelligence and Me",
           subtitle: "Sprint 3 Cultural blog",
           type: "CulturalBlog",
@@ -538,7 +538,7 @@ exports.seed = knex => {
             "were as good as me … hopefully better by now if they kept up the practice.</p>"
         },
         {
-          banner_url: "images/tech-blog-banner.JPG",
+          banner_url: "images/tech-blog-banner.jpg",
           title: "JavaScrip and its bits and pieces plus the DOM",
           subtitle: "Sprint 3 Technical blog",
           type: "TechBlog",
@@ -666,7 +666,7 @@ exports.seed = knex => {
         "</p>"
         },
         {
-          banner_url: "images/cultural-blog-banner.JPG",
+          banner_url: "images/cultural-blog-banner.jpg",
           title: "Neuroplasticity and the Growth Mindset",
           subtitle: "Sprint 4 Cultural blog",
           type: "CulturalBlog",
@@ -774,7 +774,7 @@ exports.seed = knex => {
           "</p>"
         },
         {
-          banner_url: "images/tech-blog-banner.JPG",
+          banner_url: "images/tech-blog-banner.jpg",
           title: "My experiences with JavaScript",
           subtitle: "Sprint 4 Technical blog",
           type: "TechBlog",
@@ -900,7 +900,7 @@ exports.seed = knex => {
           "</p>"
         },
         {
-          banner_url: "images/cultural-blog-banner.JPG",
+          banner_url: "images/cultural-blog-banner.jpg",
           title: "Reflection on Foundations",
           subtitle: "Sprint 5 Cultural blog",
           type: "CulturalBlog",
