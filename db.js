@@ -6,9 +6,9 @@ const env = process.env.NODE_ENV || 'development'
 const database = knex(config[env])
 
 module.exports = {
-    getArticle,
-    getNavData,
-    getFeaturedArticle
+  getArticle,
+  getNavData,
+  getFeaturedArticle
 }
 
 
