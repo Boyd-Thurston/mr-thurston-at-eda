@@ -24,7 +24,7 @@
     "express-handlebars": "^4.0.0",
     "knex": "^0.20.13",
     "node": "^13.12.0",
-    "postgresql": "0.0.1"
+    "pg": "^8.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2",
