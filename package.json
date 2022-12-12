@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Boyd-Thurston/mr-thurston-at-eda#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.0",
     "knex": "^0.20.13",
     "node": "^13.12.0",
